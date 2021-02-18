@@ -28,8 +28,6 @@
     animation-name: example;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    border-left: black solid 2px;
-    border-right: black solid 2px;
     margin: 30px 30px 30px 30px;
 }
 @keyframes example{
