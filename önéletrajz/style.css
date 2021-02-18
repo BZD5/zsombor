@@ -25,12 +25,39 @@
     text-transform: uppercase;
     font-size: 50px;
     padding: 20px 0px 0px 20px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    margin: 30px 30px 30px 30px;
+}
+@keyframes example{
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: darkmagenta;}
+    80% {color: green;}
+    90%  {color: rgb(129, 56, 56);}
+    100%  {color: orangered;}
+}
+@keyframes papa{
+    0% {color: green;}
+    10%  {color: rgb(129, 56, 56);}
+    25%  {color: orangered;}
+    50%   {color: red;}
+    75%  {color: yellow;}
+    90%  {color: blue;}
+    100%  {color: darkmagenta;}
 }
 .név{
     text-align: right;
     font-size: 30px;
     margin:0;
     padding: 0px 30px 0px 0px;
+    animation-name: papa;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 .kép{
     float: left;
@@ -42,8 +69,8 @@
 #profil{
     font-size: 40px;
     color: rgb(18, 53, 73);
-    border-top: black solid 2px ;
-    margin: 30px 30px 30px 300px;
+    border-top: black solid 4px ;
+    margin: 30px 30px 30px 250px;
 
 }
 .profilszöveg{
