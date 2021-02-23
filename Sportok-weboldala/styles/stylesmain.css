@@ -1,0 +1,51 @@
+.test{
+    background-color: grey;   
+    font-family: 'Times New Roman', Times, serif;
+}
+.főcím{
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 50px;
+    border-bottom: black solid 3px;
+}
+.lap{
+    background-color: rgb(240, 229, 198);
+    width: 1000px;
+    height: 1500px;
+    margin: 0% 25% 0% 25%;
+    padding: 0px 30px 0px 30px;
+    border: 2px black solid; 
+}
+#főkép{
+    width: 250px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 476px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid 2px black;
+}
+ 
+li{
+    float: left;
+    display: inline;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: black;
+    color: rgb(255, 17, 0);
+}
