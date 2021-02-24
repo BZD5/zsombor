@@ -42,46 +42,44 @@ ul {
     font-size: 40px;
     border-bottom: brown solid 3px;
 }
-.labda1{
+.box1{
     font-size: 30px;
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin-right: 600px;
+    margin: 10px 630px 10px 10px ;
     border: brown 2px solid;
-    padding: 5px 0px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
-.labda3{
+.box3{
     font-size: 30px;
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin: 50px 850px 10px 0px;
-    padding: 5px 0px 5px 5px;
+    margin: 50px 620px 10px 10px;
+    padding: 5px 5px 5px 5px;
     border: brown 2px solid;
 }
-.labda2{
+.box2{
     font-size: 30px;
     color:maroon;
     font-style: oblique;
     text-align: right;
     border: maroon 2px solid;
-    margin-left: 680px;
+    margin: 10px 10px 10px 500px;
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
 }
-.labda4{
+.box4{
     font-size: 30px;
     color:maroon;
     font-style: oblique;
     text-align: center;
     border: maroon 2px solid;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 20px 220px 20px 220px;
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
 }
-
 .jobb{
     float: right;
     width: 250px;
