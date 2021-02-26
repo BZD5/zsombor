@@ -43,7 +43,7 @@ ul {
     border-bottom: brown solid 3px;
     text-transform:uppercase;
 }
-.box1{
+.atl1{
     font-size: 30px;
     color: brown;
     font-style: italic;
@@ -52,7 +52,7 @@ ul {
     border: brown 2px solid;
     padding: 5px 5px 5px 5px;
 }
-.box3{
+.atl3{
     font-size: 30px;
     color: brown;
     font-style: italic;
@@ -61,7 +61,7 @@ ul {
     padding: 5px 5px 5px 5px;
     border: brown 2px solid;
 }
-.box2{
+.atl2{
     font-size: 30px;
     color:maroon;
     font-style: oblique;
@@ -71,7 +71,7 @@ ul {
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
 }
-.box4{
+.atl4{
     font-size: 30px;
     color:maroon;
     font-style: oblique;
@@ -81,7 +81,7 @@ ul {
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
 }
-.jobb{
+.kep2{
     float: right;
     width: 250px;
     border: black solid 2px;
@@ -96,17 +96,16 @@ p{
     text-align: justify;
     margin: 10px 10px 10px 10px;
 }
-.bal{
+.kep1{
     float:left;
-    width: 250px;
-    height: 200px;
+    width: 300px;
     border: black solid 2px;
     clear: both;
     padding: 0px;
     margin: 10px 10px 10px 10px;
 }
 .gif{
-    width: 200px;
+    width: 300px;
     margin: 0px 0px 0px 10px;
     padding: 0px;
     clear: both;
