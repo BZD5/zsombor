@@ -28,8 +28,11 @@ li a:hover{
     background-color: black;
     color: rgb(255, 17, 0);
 }
+img{
+    box-shadow: 10px 10px 5px grey;
+}
 li a:active{
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     background-color: white;
 }
 ul {

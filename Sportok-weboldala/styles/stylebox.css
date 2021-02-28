@@ -29,7 +29,7 @@ li a:hover{
     color: rgb(255, 17, 0);
 }
 li a:active{
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     background-color: white;
 }
 ul {
@@ -61,7 +61,7 @@ ul {
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin: 50px 620px 10px 10px;
+    margin: 50px 530px 10px 10px;
     padding: 5px 5px 5px 5px;
     border: brown 2px solid;
 }
@@ -84,6 +84,7 @@ ul {
     margin: 20px 220px 20px 220px;
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
+    line-height: 50px;
 }
 .jobb{
     float: right;
@@ -93,9 +94,12 @@ ul {
     margin: 10px 10px 10px 10px;
     padding: 0px;
 }
+img{
+    box-shadow: 10px 10px 5px grey;
+}
 p{
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: rgb(66, 10, 14);
     text-align: justify;
     margin: 10px 10px 10px 10px;
