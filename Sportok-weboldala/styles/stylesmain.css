@@ -8,6 +8,7 @@
     font-size: 50px;
     border-bottom: brown solid 3px;
     font-family: "Audiowide", sans-serif; 
+    background-image: url("img/sport főkép 3.png");
 }
 .lap{
     background-color: rgb(240, 229, 198);
@@ -53,6 +54,7 @@ p{
     font-size: 30px;
     border-bottom: black solid 2px;
     margin-right: 253px;
+    margin-left: 263px;
 }
 li{
     float: left;
@@ -77,6 +79,15 @@ li a:active{
     color: rgb(0, 0, 0);
     background-color: white;
 }
+#főkép2{
+    width: 250px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 0px;
+    float: left;
+    
+}
 footer{
     position: fixed;
     left: 0;
@@ -97,7 +108,7 @@ footer{
     border-bottom: black double 2px;
 }
 img{
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 0px 10px 10px grey;
 }
 .container{
     display: grid;
