@@ -8,7 +8,12 @@
     font-size: 50px;
     border-bottom: brown solid 3px;
     font-family: "Audiowide", sans-serif; 
-    background-image: url("img/sport főkép 3.png");
+}
+#főkép3{
+    width: 900px;
+    height: 800px;
+    position: absolute;
+    opacity: 0.2;
 }
 .lap{
     background-color: rgb(240, 229, 198);
@@ -125,7 +130,6 @@ img{
     grid-column-end:2 ;
     grid-row-start: 1;
     grid-row-end: 2;
-
 }
 .grid2{
     grid-column-start:2 ;
