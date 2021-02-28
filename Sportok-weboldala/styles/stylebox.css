@@ -17,7 +17,6 @@ li{
     letter-spacing: 2px;
     font-weight:lighter;
 }
-  
 li a{
     display: block;
     color: white;
@@ -28,6 +27,10 @@ li a{
 li a:hover{
     background-color: black;
     color: rgb(255, 17, 0);
+}
+li a:active{
+    color: chartreuse;
+    background-color: white;
 }
 ul {
     list-style-type: none;
@@ -42,6 +45,7 @@ ul {
     font-size: 40px;
     border-bottom: brown solid 3px;
     text-transform:uppercase;
+    font-family: "Audiowide", sans-serif; 
 }
 .box1{
     font-size: 30px;

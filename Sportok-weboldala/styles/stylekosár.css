@@ -29,6 +29,10 @@ li a:hover{
     background-color: black;
     color: rgb(255, 17, 0);
 }
+li a:active{
+    color: chartreuse;
+    background-color: white;
+}
 ul {
     list-style-type: none;
     margin: 0px 390px 0px 0px;
@@ -42,6 +46,7 @@ ul {
     font-size: 40px;
     border-bottom: brown solid 3px;
     text-transform:uppercase;
+    font-family: "Audiowide", sans-serif; 
 }
 .kosar1{
     font-size: 30px;

@@ -7,6 +7,7 @@
     text-transform:uppercase;
     font-size: 50px;
     border-bottom: brown solid 3px;
+    font-family: "Audiowide", sans-serif; 
 }
 .lap{
     background-color: rgb(240, 229, 198);
@@ -32,9 +33,20 @@ ul {
     background-color: #333;
     border: solid 2px black;
 }
-p{
-    font-size: 20px;
+.szöveg{
+    font-size: 22px;
+    color: black;
     letter-spacing: 2px;
+}
+h3{
+    color: blue;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif; 
+}
+p{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: rgb(100, 41, 23);
 }
 .alszöveg{
     color: brown;
@@ -60,6 +72,10 @@ li a{
 li a:hover{
     background-color: black;
     color: rgb(255, 17, 0);
+}
+li a:active{
+    color: chartreuse;
+    background-color: white;
 }
 footer{
     position: fixed;
@@ -95,28 +111,28 @@ footer{
     grid-column-end:2 ;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: cadetblue;
+
 }
 .grid2{
     grid-column-start:2 ;
     grid-column-end:3 ;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: cadetblue;
+
 }
 .grid3{
     grid-column-start:1 ;
     grid-column-end:2 ;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: cadetblue;
+
 }
 .grid4{
     grid-column-start:2 ;
     grid-column-end:3 ;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: cadetblue;
+
 }
 h3{
     color:brown;
