@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body class="bg-dark">
+    <div class="w-50 mx-auto col px-md-3 img-thumbnail mt-5 pt-3">
+        <form class="bg-light" action="">
+            <h1 class="mx-auto text-center">Regisztráció</h1>
+            <div class="form-group my-3">
+                <label for="username" class="my-2">Vezetéknév</label>
+                <input class="form-control" type="text" id="vezetéknév">
+            </div>
+            <div class="form-group my-3">
+                <label for="username" class="my-2">Keresztnév</label>
+                <input class="form-control" type="text" id="keresztnév">
+            </div>
+            <div class="form-group my-3">
+                <label for="username" class="my-2">Email cím</label>
+                <input class="form-control" type="text" id="Emailcim">
+            </div>
+            <div class="form-group my-3">
+                <label for="password" class="my-2">Jelszó</label>
+                <input class="form-control" type="password" id="Jelszó">
+            </div>
+            <div class="form-group my-3">
+                <label for="password" class="my-2">Jelszó megísmétlése</label>
+                <input class="form-control" type="password" id="Jelszóismétlés">
+            </div>
+            <p class="h4">Tanár vagy Diák?</p>
+            <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Diák
+                </label>
+              </div>
+              <div class="form-check ">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optradio">Tanár
+                </label>
+              </div>
+              <div>
+                <label class="my-3" for="validationCustom04">OM azinisító:</label>
+                <select class="mb-3 custom-select w-100" type=text>
+                  <option selected disabled value="">Nem mered ide írni</option>
+                  <option>egyebek</option>
+                </select>
+                <button class="btn btn-success w-100 mb-3">Sumbit</button>   
+        </form>
+    </div>
+</body>
+</html>
