@@ -64,7 +64,7 @@ ul {
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin: 50px 850px 10px 0px;
+    margin: 50px 800px 10px 0px;
     padding: 5px 0px 5px 5px;
     border: brown 2px solid;
 }
@@ -99,7 +99,7 @@ ul {
     padding: 0px;
 }
 p{
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
     color: rgb(66, 10, 14);
     text-align: justify;
