@@ -1,0 +1,159 @@
+.test{
+    background-color: grey;   
+    font-family: 'Times New Roman', Times, serif;
+}
+.főcím{
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 50px;
+    border-bottom: brown solid 3px;
+    font-family: "Audiowide", sans-serif; 
+}
+#főkép3{
+    width: 900px;
+    height: 800px;
+    position: absolute;
+    opacity: 0.2;
+}
+.lap{
+    background-color: rgb(240, 229, 198);
+    width: 1000px;
+    height: 1600px;
+    margin: 0% 25% 0% 25%;
+    padding: 10px 30px 0px 30px;
+    border: 2px black solid; 
+}
+#főkép{
+    width: 250px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 390px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid 2px black;
+}
+.szöveg{
+    font-size: 22px;
+    color: black;
+    letter-spacing: 2px;
+}
+h3{
+    color: blue;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif; 
+}
+p{
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: rgb(100, 41, 23);
+}
+.alszöveg{
+    color: brown;
+    font-size: 30px;
+    border-bottom: black solid 2px;
+    margin-right: 253px;
+    margin-left: 263px;
+}
+li{
+    float: left;
+    display: inline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight:lighter;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: black;
+    color: rgb(255, 17, 0);
+}
+li a:active{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+#főkép2{
+    width: 250px;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 0px;
+    float: left;
+    
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sportok{
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: fantasy;
+    font-size: 30px;
+    color: brown;
+    border-bottom: black double 2px;
+}
+img{
+    box-shadow: 0px 10px 10px grey;
+}
+.container{
+    display: grid;
+    width: 800px;
+    padding: 0px;
+    margin: 0px 100px 0px 70px;
+    height: 800px;
+    gap: 30px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+}
+.grid1{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid2{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+.grid3{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+.grid4{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+h3{
+    color:brown;
+    font-size: 25px;
+    border-bottom: rgb(0, 0, 0)  2px;
+}

@@ -1,0 +1,123 @@
+.test{
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lap{
+    width: 1000px;
+    height: 1600px;
+    margin: 0% 25% 0% 25%;
+    background-color: rgb(240, 229, 198);
+    border: black solid 2px;
+    padding: 10px 30px 0px 30px;
+}
+li{
+    float: left;
+    display: inline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-weight:lighter;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: black;
+    color: rgb(255, 17, 0);
+}
+li a:active{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 390px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid 2px black;
+}
+.főcim{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: brown solid 3px;
+    text-transform:uppercase;
+    font-family: "Audiowide", sans-serif; 
+}
+.kosar1{
+    font-size: 30px;
+    color: brown;
+    font-style: italic;
+    border-radius: 100px;
+    margin: 10px 630px 10px 10px ;
+    border: brown 2px solid;
+    padding: 5px 5px 5px 5px;
+}
+.kosar3{
+    font-size: 30px;
+    color: brown;
+    font-style: italic;
+    border-radius: 100px;
+    margin: 50px 550px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border: brown 2px solid;
+}
+img{
+    box-shadow: 10px 10px 5px grey;
+}
+.kosar2{
+    font-size: 30px;
+    color:maroon;
+    font-style: oblique;
+    text-align: right;
+    border: maroon 2px solid;
+    margin: 30px 300px 10px 300px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 5px 5px 5px;
+}
+.kosar4{
+    font-size: 30px;
+    color:maroon;
+    font-style: oblique;
+    text-align: center;
+    border: maroon 2px solid;
+    margin: 20px 220px 20px 220px;
+    border-radius: 100px;
+    padding: 5px 5px 5px 5px;
+}
+.jobb{
+    float: left;
+    width: 250px;
+    border: black solid 2px;
+    clear: both;
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(66, 10, 14);
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+.bal{
+    float:right;
+    width: 200px;
+    border: black solid 2px;
+    clear: both;
+    padding: 0px;
+    margin: 10px 10px 10px 10px;
+}
+.gif{
+    width: 250px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    clear: both;
+    float: right;
+    border: black solid 2px;
+}
