@@ -4,7 +4,7 @@
 }
 .lap{
     width: 1000px;
-    height: 1600px;
+    height: 1700px;
     margin: 0% 25% 0% 25%;
     background-color: rgb(240, 229, 198);
     border: black solid 2px;
@@ -99,7 +99,7 @@ img{
     padding: 0px;
 }
 p{
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 2px;
     color: rgb(66, 10, 14);
     text-align: justify;

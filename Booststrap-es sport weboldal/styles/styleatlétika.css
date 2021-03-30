@@ -56,7 +56,7 @@ ul {
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin: 10px 630px 10px 10px ;
+    margin: 10px 680px 10px 10px ;
     border: brown 2px solid;
     padding: 5px 5px 5px 5px;
 }
@@ -75,7 +75,7 @@ ul {
     font-style: oblique;
     text-align: right;
     border: maroon 2px solid;
-    margin: 50px 10px 10px 500px;
+    margin: 50px 10px 10px 550px;
     border-radius: 100px;
     padding: 5px 5px 5px 5px;
 }
@@ -98,7 +98,7 @@ ul {
     padding: 0px;
 }
 p{
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 2px;
     color: rgb(66, 10, 14);
     text-align: justify;

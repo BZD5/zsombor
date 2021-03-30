@@ -52,7 +52,7 @@ ul {
     color: brown;
     font-style: italic;
     border-radius: 100px;
-    margin: 10px 630px 10px 10px ;
+    margin: 10px 600px 10px 10px ;
     border: brown 2px solid;
     padding: 5px 5px 5px 5px;
 }
@@ -98,7 +98,7 @@ img{
     box-shadow: 10px 10px 5px grey;
 }
 p{
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 3px;
     color: rgb(66, 10, 14);
     text-align: justify;
